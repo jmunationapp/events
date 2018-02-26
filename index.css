@@ -1,0 +1,45 @@
+@font-face {
+    font-family: jmu;
+    src: url(SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: head;
+    src: url(Forza-BoldItalic.otf);
+}
+
+
+body {
+    font-family:jmu;
+}
+
+h1{
+    font-size:18px;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+button {
+    height: 50px;
+    width: 20%;
+    background-color: #F7F7F7;
+    padding: 0;
+    border: none;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
